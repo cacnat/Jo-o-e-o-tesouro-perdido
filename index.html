@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tiny5&display=swap" rel="stylesheet">
+    <title>João e o Tesouro Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>João encontra um mapa misterioso em sua casa
+                João decide seguir o mapa?</p>
+            <button class="btn-proximo" data-proximo="1">não</button>
+            <button class="btn-proximo" data-proximo="2">sim "vai para a floresta"</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Fim(João guarda o mapa e volta para a cama)
+                
+            </p>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo4.jpg" alt="Floresta bifurcada">
+            <p>João encontra uma bifurcação no caminho, para onde ele vai?</p>
+            <button class="btn-proximo" data-proximo="3">direita "encontra um riacho com um barco</button>
+            <button class="btn-proximo" data-proximo="4">esquerda "encontra um urso adormecido"</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.jpg">
+            <p>João usa o barco para atravessar o riacho?</p>
+            <button class="btn-proximo" data-proximo="5">sim "Chega a uma ilha com o tesouro e acha o tesouro perdido"</button>
+            <button class="btn-proximo" data-proximo="6">não "fica preso no riacho e volta para a casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>João morre após acordar o urso adormecido que estava com muita fome.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo2.jpeg" alt="O Tesouro">
+            <p>João tenta abrir o tesouro com medo da situação?</p>
+            <button class="btn-proximo" data-proximo="7">sim </button>
+            <button class="btn-proximo" data-proximo="8">não</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>João chega em casa em segurança mas sem o tesouro.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.avif" alt="FIM.">
+            <p>João consegue abrir o báu e volta para casa com a fortuna que há nele completamente feliz!!</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>O baú permanece fechado e João retorna sem nada.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
